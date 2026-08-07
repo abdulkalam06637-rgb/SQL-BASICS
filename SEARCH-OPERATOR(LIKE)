@@ -1,0 +1,13 @@
+--Find all customers whose first name starts with 'm'
+--use mydatabase ;
+
+--select * from customers where first_name like ('M%');
+ 
+--Find the customers whose name end with n
+select * from customers where first_name like  ('%n');
+
+--Find the customers name who has middle letter t 
+select * from customers where first_name like('%t%');
+
+--Find the customers name whose ending with anything and we don't the first two letter of his name.
+select * from customers where first_name like ('__t%');
