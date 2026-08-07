@@ -1,0 +1,2 @@
+-- retrive the score of all customers greater than 500
+select * from customers where score >=500;
