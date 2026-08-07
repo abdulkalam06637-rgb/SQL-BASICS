@@ -1,0 +1,2 @@
+-- retrive all customers not from germany
+select * from customers where country != 'Germany';
