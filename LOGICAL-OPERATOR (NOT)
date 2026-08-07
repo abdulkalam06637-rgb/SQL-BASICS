@@ -1,0 +1,4 @@
+--Retrieve all the customers score not less than 500
+use mydatabase ;
+select * from customers where not score<500 ;
+--select * from customers
