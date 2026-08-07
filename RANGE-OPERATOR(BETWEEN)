@@ -1,0 +1,8 @@
+--Retrieve all the customers score between 100 to 500
+use mydatabase ;
+select * from customers where  score between 100 and 500 ;
+ 
+ --ALTERNATIVE
+ select * from customers where score >=100 and score <=500;
+
+--select * from customers
