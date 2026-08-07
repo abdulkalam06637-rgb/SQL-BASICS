@@ -1,0 +1,3 @@
+--Retrieve all the customers from usa and have  a score greater than 500
+use mydatabase ;
+select * from customers where country ='usa' and score > 500 ;
