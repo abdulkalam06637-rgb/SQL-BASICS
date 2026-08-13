@@ -1,0 +1,6 @@
+use MyDatabase;
+/* Get all customers along with their orders,
+including those whose orders*/
+
+select c.id,c.first_name,c.country,c.score,
+o.order_id,o.order_date,o.sales from customers c left join orders o on c.id = o.customer_id ;
