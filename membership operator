@@ -1,0 +1,5 @@
+use MyDatabase
+
+/* retrive the customer from specific country */
+
+select * from customers where country in ('usa','Germany');
